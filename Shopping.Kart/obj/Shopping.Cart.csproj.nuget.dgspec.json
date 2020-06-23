@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Dharmishtha\\Dharmishtha_DemoApplication\\CoreApplication\\ShoppingKartApplication-30-01-2020\\Shopping.Kart\\Shopping.Kart\\Shopping.Cart.csproj": {}
+  },
+  "projects": {
+    "E:\\Dharmishtha\\Dharmishtha_DemoApplication\\CoreApplication\\ShoppingKartApplication-30-01-2020\\Shopping.Kart\\Shopping.Kart\\Shopping.Cart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Dharmishtha\\Dharmishtha_DemoApplication\\CoreApplication\\ShoppingKartApplication-30-01-2020\\Shopping.Kart\\Shopping.Kart\\Shopping.Cart.csproj",
+        "projectName": "Shopping.Cart",
+        "projectPath": "E:\\Dharmishtha\\Dharmishtha_DemoApplication\\CoreApplication\\ShoppingKartApplication-30-01-2020\\Shopping.Kart\\Shopping.Kart\\Shopping.Cart.csproj",
+        "packagesPath": "C:\\Users\\Dixita\\.nuget\\packages\\",
+        "outputPath": "E:\\Dharmishtha\\Dharmishtha_DemoApplication\\CoreApplication\\ShoppingKartApplication-30-01-2020\\Shopping.Kart\\Shopping.Kart\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dixita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.2, 3.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
